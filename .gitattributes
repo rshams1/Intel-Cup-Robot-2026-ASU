@@ -1,0 +1,13 @@
+# Keep KiCad project files consistent across Windows/Mac
+*.kicad_pro text eol=lf
+*.kicad_sch text eol=lf
+*.kicad_pcb text eol=lf
+*.kicad_sym text eol=lf
+*.kicad_mod text eol=lf
+
+# General text/code files
+*.md text eol=lf
+*.txt text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+CMakeLists.txt text eol=lf
