@@ -644,7 +644,7 @@
         "uuid": "3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR8,#PWR20-25,J_I2C2,U3,J_Power2,SW1,R_SDA_Pullup_DNP1,R_SCL_Pullup_DNP1,J_Switch1,#FLG1-3",
     "variants": []
   },
   "sheets": [

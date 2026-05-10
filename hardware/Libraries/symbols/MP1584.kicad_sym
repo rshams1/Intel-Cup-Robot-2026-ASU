@@ -1,0 +1,110 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MP1584" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Value" "MP1584" (id 1) (at 0 0.0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Footprint" "MP1584:DC-BRICK" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Monolithic Power" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 3A 8-SOIC (0.154, 3.90mm Width) Exposed Pad\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "SOIC-8 Monolithic Power" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/MP1584/Monolithic+Power+Systems/view-part/?ref=snap" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "MP1584" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2780365&manufacturer=Monolithic Power&part_name=MP1584&search_term=None" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "Not in stock" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/MP1584/Monolithic+Power+Systems/view-part/?ref=eda" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "MP1584_0_0"
+      (rectangle (start -7.62 -5.08) (end 10.16 5.08)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin input line (at -15.24 2.54 0) (length 7.62)
+        (name "VIN+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "IN1+"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -15.24 2.54 0) (length 7.62) hide
+        (name "VIN+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "IN2+"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -15.24 -2.54 0) (length 7.62)
+        (name "VIN-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "IN1-"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -15.24 -2.54 0) (length 7.62) hide
+        (name "VIN-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "IN2-"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 17.78 -2.54 180.0) (length 7.62)
+        (name "VOUT-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "OUT1-"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 17.78 -2.54 180.0) (length 7.62) hide
+        (name "VOUT-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "OUT2-"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 17.78 2.54 180.0) (length 7.62)
+        (name "VOUT+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "OUT1+"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 17.78 2.54 180.0) (length 7.62) hide
+        (name "VOUT+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "OUT2+"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
