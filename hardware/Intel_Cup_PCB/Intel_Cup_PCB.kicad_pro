@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 3.2,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -644,7 +644,7 @@
         "uuid": "3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
       }
     ],
-    "used_designators": "#PWR8,#PWR20-25,J_I2C2,U3,J_Power2,SW1,R_SDA_Pullup_DNP1,R_SCL_Pullup_DNP1,J_Switch1,#FLG1-3",
+    "used_designators": "SW1,U4-5,MP1,R1,nFAULT_PullUp1,#PWR10,#PWR26",
     "variants": []
   },
   "sheets": [

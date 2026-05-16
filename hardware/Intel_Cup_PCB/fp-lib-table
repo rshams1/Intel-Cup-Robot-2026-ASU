@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "intel_cup_footprints") (type "KiCad") (uri "/Users/raihanshams/Documents/INTEL_CUP/Intel-Cup-Robot-2026-ASU/hardware/Libraries/footprints/intel_cup_footprints.pretty") (options "") (descr ""))
+)
