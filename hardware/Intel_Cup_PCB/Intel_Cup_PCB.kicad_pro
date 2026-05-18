@@ -687,7 +687,7 @@
         "uuid": "3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
       }
     ],
-    "used_designators": "SW1,U4-5,MP1,R1,nFAULT_PullUp1,#PWR10,#PWR26",
+    "used_designators": "MP1",
     "variants": []
   },
   "sheets": [
