@@ -5221,7 +5221,7 @@
 		)
 		(uuid "7385994e-750f-4d55-b0ef-a7ee959e1891")
 	)
-	(label "IO4"
+	(label "IO34"
 		(at 203.2 148.59 0)
 		(effects
 			(font
@@ -5241,7 +5241,7 @@
 		)
 		(uuid "7b119370-5b14-43c9-8c10-2a88a14b776f")
 	)
-	(label "IO19"
+	(label "IO12(BOOT)"
 		(at 203.2 156.21 0)
 		(effects
 			(font
@@ -5381,7 +5381,7 @@
 		)
 		(uuid "b2a70423-0b1b-4398-af9d-a2cf846b91a4")
 	)
-	(label "IO23"
+	(label "IO15(BOOT)"
 		(at 203.2 158.75 0)
 		(effects
 			(font
@@ -5441,7 +5441,7 @@
 		)
 		(uuid "d71b1664-7fb7-4a59-8740-53152fd0543f")
 	)
-	(label "IO18"
+	(label "IO39"
 		(at 203.2 153.67 0)
 		(effects
 			(font
@@ -5511,7 +5511,7 @@
 		)
 		(uuid "ee05e194-fcff-487d-8a11-6599dd1a6851")
 	)
-	(label "IO5"
+	(label "IO36"
 		(at 203.2 151.13 0)
 		(effects
 			(font
@@ -7695,7 +7695,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MP1584"
 			(at 129.54 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9164,7 +9164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8aabc39-d8e2-4e54-b1a2-59bda3d0bc1a")
-		(property "Reference" "U2"
+		(property "Reference" "ESP32_Devkit1"
 			(at 127 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9310,7 +9310,7 @@
 		(instances
 			(project "Intel_Cup_PCB"
 				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
-					(reference "U2")
+					(reference "ESP32_Devkit1")
 					(unit 1)
 				)
 			)
