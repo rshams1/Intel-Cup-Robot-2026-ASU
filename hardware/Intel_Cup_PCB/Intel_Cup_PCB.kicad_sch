@@ -671,310 +671,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x05_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05_Pin"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x05_Pin_1_1"
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x09_Pin"
 			(pin_names
 				(offset 1.016)
@@ -3850,6 +3546,18 @@
 		(uuid "2fb85ce5-5621-4b77-b2c3-cb951d5efcef")
 	)
 	(junction
+		(at 106.68 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31609687-ee21-470d-bc06-116ed6b7b6ca")
+	)
+	(junction
+		(at 100.33 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3646a18b-b209-470c-99d5-42e2b108edac")
+	)
+	(junction
 		(at 105.41 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3862,6 +3570,12 @@
 		(uuid "554a7ccd-2da9-4f37-8850-cde2fef438a9")
 	)
 	(junction
+		(at 100.33 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5662a8c6-fe82-4f32-87ea-02009cc3bab0")
+	)
+	(junction
 		(at 95.25 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3872,6 +3586,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b6682d0-652a-487f-86ab-f78f1befa9c8")
+	)
+	(junction
+		(at 184.15 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7766d367-e7e6-42ba-b095-6a1b17d1b026")
 	)
 	(junction
 		(at 95.25 77.47)
@@ -4083,16 +3803,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 158.75) (xy 203.2 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1af551f5-e4ce-4314-8b10-460aba98bbaa")
-	)
-	(wire
-		(pts
 			(xy 104.14 105.41) (xy 113.03 105.41)
 		)
 		(stroke
@@ -4100,16 +3810,6 @@
 			(type default)
 		)
 		(uuid "1c7b5f4d-5ee9-4fe7-83b2-6598c8ad97cc")
-	)
-	(wire
-		(pts
-			(xy 198.12 156.21) (xy 203.2 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f3560b6-12bd-4da0-afec-5274c540fba0")
 	)
 	(wire
 		(pts
@@ -4133,6 +3833,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 90.17) (xy 100.33 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "201b43b0-688c-4b8b-b01e-adae76bee0c1")
+	)
+	(wire
+		(pts
 			(xy 140.97 85.09) (xy 162.56 85.09)
 		)
 		(stroke
@@ -4140,6 +3850,16 @@
 			(type default)
 		)
 		(uuid "20b7ba0f-389b-4042-9dbc-d700ac875203")
+	)
+	(wire
+		(pts
+			(xy 100.33 110.49) (xy 113.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23b5f021-3bca-41f7-9f28-e7b79159db8f")
 	)
 	(wire
 		(pts
@@ -4160,6 +3880,16 @@
 			(type default)
 		)
 		(uuid "291e111e-1c22-4a3d-bd37-decdc5a3602b")
+	)
+	(wire
+		(pts
+			(xy 208.28 128.27) (xy 196.85 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b51e630-92c9-45a4-89a5-32977e323ffe")
 	)
 	(wire
 		(pts
@@ -4210,16 +3940,6 @@
 			(type default)
 		)
 		(uuid "3643c7d2-a190-4ce3-bd33-bbffdf658da8")
-	)
-	(wire
-		(pts
-			(xy 104.14 107.95) (xy 113.03 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38720f54-c8a2-4bd6-8990-c84b2dc82b2c")
 	)
 	(wire
 		(pts
@@ -4343,16 +4063,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 148.59) (xy 203.2 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ca57da9-02c6-48c0-8881-59aa18f9fa9d")
-	)
-	(wire
-		(pts
 			(xy 104.14 102.87) (xy 113.03 102.87)
 		)
 		(stroke
@@ -4380,6 +4090,16 @@
 			(type default)
 		)
 		(uuid "54550ba7-c7fa-46c9-a635-083d23fd60b2")
+	)
+	(wire
+		(pts
+			(xy 106.68 116.84) (xy 106.68 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f52845-9aa8-402c-9d56-099aecbd90e1")
 	)
 	(wire
 		(pts
@@ -4430,6 +4150,36 @@
 			(type default)
 		)
 		(uuid "5acdfbdc-5d7d-4585-aebb-d8140cd0ab77")
+	)
+	(wire
+		(pts
+			(xy 100.33 91.44) (xy 100.33 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aed41d2-e330-46b5-868e-fbaddd200366")
+	)
+	(wire
+		(pts
+			(xy 171.45 152.4) (xy 168.91 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4e74a9-c16b-40f6-b4df-f765354a93d4")
+	)
+	(wire
+		(pts
+			(xy 168.91 154.94) (xy 173.99 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db63f44-d336-4976-95ac-8cf3a455ef23")
 	)
 	(wire
 		(pts
@@ -4503,6 +4253,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 110.49) (xy 100.33 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7303121e-e48e-4a2e-87d8-167863c0bb7a")
+	)
+	(wire
+		(pts
 			(xy 104.14 113.03) (xy 113.03 113.03)
 		)
 		(stroke
@@ -4513,7 +4273,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 115.57) (xy 113.03 115.57)
+			(xy 104.14 115.57) (xy 106.68 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4613,6 +4373,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 130.81) (xy 196.85 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "822793f4-5110-471a-9624-5d63194d9ed9")
+	)
+	(wire
+		(pts
 			(xy 274.32 124.46) (xy 266.7 124.46)
 		)
 		(stroke
@@ -4630,6 +4400,36 @@
 			(type default)
 		)
 		(uuid "858b95f0-bb3a-452e-abed-0d3deb945b2e")
+	)
+	(wire
+		(pts
+			(xy 184.15 154.94) (xy 187.96 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875623c2-42b0-4c1c-8cdb-d9b12742811d")
+	)
+	(wire
+		(pts
+			(xy 100.33 90.17) (xy 113.03 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8805ecbe-cd88-4a1e-9374-c9f17e69bc47")
+	)
+	(wire
+		(pts
+			(xy 181.61 154.94) (xy 184.15 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a3c804-7de2-4189-b12d-c0c829619283")
 	)
 	(wire
 		(pts
@@ -4663,6 +4463,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 139.7) (xy 196.85 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95c90cd8-c8ce-4e18-89d6-5ea6202efae9")
+	)
+	(wire
+		(pts
 			(xy 201.93 81.28) (xy 191.77 81.28)
 		)
 		(stroke
@@ -4670,16 +4480,6 @@
 			(type default)
 		)
 		(uuid "98c7dec1-3348-435a-b942-f2c76ea37fc8")
-	)
-	(wire
-		(pts
-			(xy 198.12 151.13) (xy 203.2 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98db0d39-dbc9-420f-b740-af8a4eadf6d4")
 	)
 	(wire
 		(pts
@@ -4700,6 +4500,26 @@
 			(type default)
 		)
 		(uuid "9a0a3dd7-9a1f-47dc-b9f8-cec157dbd4a4")
+	)
+	(wire
+		(pts
+			(xy 104.14 107.95) (xy 113.03 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c305543-8ede-4dbd-b0eb-aa07bbc02da6")
+	)
+	(wire
+		(pts
+			(xy 184.15 149.86) (xy 184.15 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d7d2cfd-8012-4bb9-a032-7c66114c7aa3")
 	)
 	(wire
 		(pts
@@ -4773,16 +4593,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 153.67) (xy 203.2 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acef0bd2-8b12-49ea-90a1-8a1f5b6adf6c")
-	)
-	(wire
-		(pts
 			(xy 275.59 132.08) (xy 266.7 132.08)
 		)
 		(stroke
@@ -4800,6 +4610,16 @@
 			(type default)
 		)
 		(uuid "bf0794d6-f55d-4dc6-a7ed-4941c1961d85")
+	)
+	(wire
+		(pts
+			(xy 106.68 125.73) (xy 106.68 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c52df4fa-2029-4095-ace8-de14cab8d6dd")
 	)
 	(wire
 		(pts
@@ -4850,6 +4670,16 @@
 			(type default)
 		)
 		(uuid "d03e6b0a-5bdf-4fce-81da-0845451ce74f")
+	)
+	(wire
+		(pts
+			(xy 106.68 115.57) (xy 113.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f2da14-4259-4dc4-a071-1409ad4cdda3")
 	)
 	(wire
 		(pts
@@ -4933,6 +4763,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 137.16) (xy 196.85 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef894f92-3641-4b06-84d4-decb2b953ed8")
+	)
+	(wire
+		(pts
 			(xy 109.22 59.69) (xy 109.22 62.23)
 		)
 		(stroke
@@ -4950,16 +4790,6 @@
 			(type default)
 		)
 		(uuid "f1cf9e2c-2006-479f-addd-4d0cb38a1f66")
-	)
-	(wire
-		(pts
-			(xy 104.14 110.49) (xy 113.03 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1f94997-13da-4a10-ad64-a12afd25e8c1")
 	)
 	(wire
 		(pts
@@ -4993,16 +4823,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 90.17) (xy 113.03 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f90ee2a2-0935-4115-934c-31a6eedd4fd5")
-	)
-	(wire
-		(pts
 			(xy 104.14 87.63) (xy 113.03 87.63)
 		)
 		(stroke
@@ -5020,6 +4840,16 @@
 			(justify right bottom)
 		)
 		(uuid "0310d1a9-d700-4aa6-a496-c244bf8fa351")
+	)
+	(label "IO34"
+		(at 208.28 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13bd65eb-cb27-4a8e-9e00-ff0662878633")
 	)
 	(label "IO2(BOOT)"
 		(at 146.05 90.17 0)
@@ -5192,7 +5022,7 @@
 		(uuid "6838d280-8fd7-446c-93bc-94b4055706d6")
 	)
 	(label "IO12(BOOT)"
-		(at 104.14 90.17 0)
+		(at 97.79 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5221,16 +5051,6 @@
 		)
 		(uuid "7385994e-750f-4d55-b0ef-a7ee959e1891")
 	)
-	(label "IO34"
-		(at 203.2 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "792cf74d-57de-4c61-9b00-c8568f8f2161")
-	)
 	(label "IO13"
 		(at 104.14 87.63 0)
 		(effects
@@ -5241,16 +5061,6 @@
 		)
 		(uuid "7b119370-5b14-43c9-8c10-2a88a14b776f")
 	)
-	(label "IO12(BOOT)"
-		(at 203.2 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7c666e3d-03b1-418e-91d8-da9bd651c5a2")
-	)
 	(label "IO25"
 		(at 190.5 76.2 0)
 		(effects
@@ -5260,6 +5070,16 @@
 			(justify left bottom)
 		)
 		(uuid "80760b26-350b-4344-8508-a3fbd8e0015e")
+	)
+	(label "IO39"
+		(at 184.15 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84db9aaf-171e-4f80-a7fc-19662d35049e")
 	)
 	(label "IO5"
 		(at 236.22 138.43 0)
@@ -5341,6 +5161,26 @@
 		)
 		(uuid "9d93e86d-3703-4b73-ad07-1058195b5350")
 	)
+	(label "IO12(BOOT)"
+		(at 171.45 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9da7b40a-0170-4dca-86ec-4337ed7cd8e2")
+	)
+	(label "GND"
+		(at 208.28 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ed21c4e-3bdc-461e-a9af-10c12790eb05")
+	)
 	(label "IO5"
 		(at 146.05 100.33 0)
 		(effects
@@ -5381,16 +5221,6 @@
 		)
 		(uuid "b2a70423-0b1b-4398-af9d-a2cf846b91a4")
 	)
-	(label "IO15(BOOT)"
-		(at 203.2 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba1be276-e5c1-4438-8a24-7edf2985f5c7")
-	)
 	(label "M_R_+"
 		(at 242.57 68.58 0)
 		(effects
@@ -5410,6 +5240,16 @@
 			(justify left bottom)
 		)
 		(uuid "bf5ca67a-4b25-4f6f-9554-9fbf41cfdde5")
+	)
+	(label "IO36"
+		(at 208.28 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c214bcc5-84ba-49be-8e47-ece92f425aa3")
 	)
 	(label "IO19"
 		(at 146.05 105.41 0)
@@ -5441,16 +5281,6 @@
 		)
 		(uuid "d71b1664-7fb7-4a59-8740-53152fd0543f")
 	)
-	(label "IO39"
-		(at 203.2 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dae40911-511d-4ee9-8547-846b76d70130")
-	)
 	(label "IO18"
 		(at 236.22 140.97 0)
 		(effects
@@ -5462,7 +5292,7 @@
 		(uuid "e3c288ef-0ff0-4b40-98e0-0fa2f0c376e1")
 	)
 	(label "IO34"
-		(at 104.14 110.49 0)
+		(at 96.52 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5511,15 +5341,15 @@
 		)
 		(uuid "ee05e194-fcff-487d-8a11-6599dd1a6851")
 	)
-	(label "IO36"
-		(at 203.2 151.13 0)
+	(label "GND"
+		(at 208.28 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "ef86fd72-681e-40b0-a380-cca19e71a34e")
+		(uuid "ef2339e5-1108-4637-8815-8e305abbda37")
 	)
 	(label "IO19"
 		(at 236.22 143.51 0)
@@ -5879,6 +5709,86 @@
 			(project "Intel_Cup_PCB"
 				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 120.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09ce66ea-32a8-494a-b922-90ff97bbe58e")
+		(property "Reference" "R_Bump_L1"
+			(at 108.966 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 104.648 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 108.458 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e084fcb8-5b7d-4eb7-a082-da0227df531a")
+		)
+		(pin "2"
+			(uuid "95edbedf-9333-44de-b52b-6e5596801f4b")
+		)
+		(instances
+			(project "Intel_Cup_PCB"
+				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
+					(reference "R_Bump_L1")
 					(unit 1)
 				)
 			)
@@ -6402,6 +6312,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 195.58 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ffb0780-b533-46fb-a8d4-2f2a5f5933c9")
+		(property "Reference" "#PWR018"
+			(at 195.58 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.136 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5bd08a73-2eb3-41b9-a46f-f7d7088e0a2c")
+		)
+		(instances
+			(project "Intel_Cup_PCB"
+				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 228.6 157.48 0)
 		(mirror y)
 		(unit 1)
@@ -6632,6 +6619,162 @@
 			(project "Intel_Cup_PCB"
 				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 168.91 149.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3397fde2-265e-4952-86bc-de230bed6a7b")
+		(property "Reference" "#PWR07"
+			(at 165.1 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_ESP"
+			(at 168.656 147.828 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 168.91 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "874c84d7-7f2c-4497-be54-ab4ce12b54d9")
+		)
+		(instances
+			(project "Intel_Cup_PCB"
+				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 106.68 125.73 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "339d5b88-00d4-4cb6-88bd-9d6f0dbddf52")
+		(property "Reference" "#PWR028"
+			(at 106.68 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 106.68 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 106.68 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87adac86-cb60-4c04-b216-6c5a77f0d0ff")
+		)
+		(instances
+			(project "Intel_Cup_PCB"
+				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6873,6 +7016,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 191.77 154.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3faea0c7-804c-44c7-bf7f-681a6ed104aa")
+		(property "Reference" "R_Echo_2"
+			(at 191.77 159.258 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 191.77 160.782 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 191.77 156.718 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 191.77 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9840450-56be-4423-8923-1b02c238c797")
+		)
+		(pin "2"
+			(uuid "371b344a-b343-4a73-9e8b-5f604edae0ed")
+		)
+		(instances
+			(project "Intel_Cup_PCB"
+				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
+					(reference "R_Echo_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 261.62 127 0)
 		(unit 1)
@@ -6952,6 +7174,86 @@
 			(project "Intel_Cup_PCB"
 				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
 					(reference "J_I2C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 114.3 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b47103c-6960-4421-8541-ace6b37666be")
+		(property "Reference" "R_Bump_R1"
+			(at 102.616 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 98.298 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 102.108 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffc96bb7-63aa-4968-9b01-aa99066b521a")
+		)
+		(pin "2"
+			(uuid "77f7346a-0825-41c9-8299-470c08cc7ed1")
+		)
+		(instances
+			(project "Intel_Cup_PCB"
+				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
+					(reference "R_Bump_R1")
 					(unit 1)
 				)
 			)
@@ -7354,6 +7656,239 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 177.8 154.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "69e4a455-5a96-46a4-8dab-91553c4440c9")
+		(property "Reference" "R_Echo_1"
+			(at 177.546 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 177.546 160.528 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 177.8 156.718 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f284ee0f-87c0-4889-b3b3-955c64cab8b1")
+		)
+		(pin "2"
+			(uuid "d1994056-cb71-4816-b23a-55139bfd90e2")
+		)
+		(instances
+			(project "Intel_Cup_PCB"
+				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
+					(reference "R_Echo_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b805876-6648-496a-87ac-090d2ce79ad4")
+		(property "Reference" "#PWR013"
+			(at 100.33 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 102.616 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92c15ebc-1c77-4321-9010-3f525ed4d586")
+		)
+		(instances
+			(project "Intel_Cup_PCB"
+				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6cce3427-77cd-41fc-ba8a-fa04f79e1c6f")
+		(property "Reference" "#PWR017"
+			(at 168.91 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 161.036 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5fef7c8-db07-4200-9488-9ea09e06cb28")
+		)
+		(instances
+			(project "Intel_Cup_PCB"
+				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 229.87 119.38 0)
 		(mirror x)
@@ -7433,6 +7968,86 @@
 			(project "Intel_Cup_PCB"
 				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
 					(reference "J_UART1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 95.25 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ac32ad1-5621-45c6-a294-dad0fca61f97")
+		(property "Reference" "R_Trig_Pulldown1"
+			(at 102.616 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 98.298 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 102.108 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b998ce8e-c724-476d-b19a-1ca812cf5162")
+		)
+		(pin "2"
+			(uuid "29654bc0-9209-4a65-840d-d410d2e22487")
+		)
+		(instances
+			(project "Intel_Cup_PCB"
+				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
+					(reference "R_Trig_Pulldown1")
 					(unit 1)
 				)
 			)
@@ -7668,6 +8283,86 @@
 			(project "Intel_Cup_PCB"
 				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 191.77 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "992334c2-f23c-48f3-b6b1-8f087f7f91c0")
+		(property "Reference" "J_Bump_L1"
+			(at 193.548 132.842 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 192.786 134.874 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 191.77 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 191.77 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4b2b3d90-6fae-4622-99ee-cda2e44f61d1")
+		)
+		(pin "1"
+			(uuid "6771d551-9257-4b70-8d4f-924ff9841b68")
+		)
+		(instances
+			(project "Intel_Cup_PCB"
+				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
+					(reference "J_Bump_L1")
 					(unit 1)
 				)
 			)
@@ -8402,8 +9097,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 193.04 153.67 0)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 191.77 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8411,10 +9106,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5d600fd-3562-450c-8142-7182b3acc476")
-		(property "Reference" "J_EXTRA_PINS1"
-			(at 193.675 146.05 0)
+		(uuid "c73bcd11-ab8e-4a01-8bda-eaffcaf3845f")
+		(property "Reference" "J_Bump_R1"
+			(at 193.548 141.732 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8423,8 +9117,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 193.675 146.05 0)
+		(property "Value" "Conn_01x02_Pin"
+			(at 192.786 143.764 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8434,8 +9128,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
-			(at 193.04 153.67 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8446,7 +9140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 153.67 0)
+			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8456,8 +9150,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 193.04 153.67 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8466,26 +9160,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "4"
-			(uuid "df4b9060-38b6-403c-9992-1dd00788ffce")
 		)
 		(pin "2"
-			(uuid "83673ece-7a5a-4fa9-82a3-b9eacf8da95a")
+			(uuid "168f1fe3-5756-4862-a723-1bf59d9900d4")
 		)
 		(pin "1"
-			(uuid "14189714-3073-481d-a977-f0e5899e23be")
-		)
-		(pin "3"
-			(uuid "67641c6c-f4f9-4b91-a1de-b7fdad70f889")
-		)
-		(pin "5"
-			(uuid "53c7875d-2117-40cc-beb1-c5e4420899c8")
+			(uuid "870429a1-5176-4c54-bcf1-a35e2e194e6e")
 		)
 		(instances
 			(project "Intel_Cup_PCB"
 				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
-					(reference "J_EXTRA_PINS1")
+					(reference "J_Bump_R1")
 					(unit 1)
 				)
 			)
@@ -8566,6 +9251,91 @@
 			(project "Intel_Cup_PCB"
 				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 163.83 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc6e32f5-8c98-4dbd-9c34-b434cf227ef4")
+		(property "Reference" "J_Ultrasonic1"
+			(at 157.988 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 164.465 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 163.83 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 163.83 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1a94ce56-2fa5-433c-a8bb-b2ce9f459245")
+		)
+		(pin "2"
+			(uuid "bf98b4d6-3014-48d0-a94b-acfc95af9238")
+		)
+		(pin "1"
+			(uuid "d8b55ba8-2bd2-4444-8531-d82f11cdfd84")
+		)
+		(pin "4"
+			(uuid "b99e05ad-f9a4-4cde-8dd7-c0b4f994c5f7")
+		)
+		(instances
+			(project "Intel_Cup_PCB"
+				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
+					(reference "J_Ultrasonic1")
 					(unit 1)
 				)
 			)
@@ -9393,6 +10163,83 @@
 			(project "Intel_Cup_PCB"
 				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 100.33 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fbffab06-132c-458c-87d5-0f91458f6c86")
+		(property "Reference" "#PWR027"
+			(at 100.33 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 96.774 120.904 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 100.33 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5dbf9e9-cbf8-48b6-82e6-0b85ec0c17a8")
+		)
+		(instances
+			(project "Intel_Cup_PCB"
+				(path "/3fe6b950-a1b3-4d6d-b01d-5b57f82620e1"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
